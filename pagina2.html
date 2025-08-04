@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+
+       <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#2c3035] px-10 py-3 bg-[#121417]">
+         <div class="flex items-center gap-4 text-white">
+           <img src="./assets/foto curriculum.jpg" alt="Foto de Maria Florencia" class="w-10 h-10 rounded-full object-cover"/>
+         </div>
+  <div class="flex flex-1 justify-end gap-8">
+    <div class="flex items-center gap-9">
+      <a class="text-white text-sm font-medium leading-normal" href="./pagina1.html">Home</a>
+      <a class="text-white text-sm font-medium leading-normal" href="./pagina3.html">Summary</a>
+      <a class="text-white text-sm font-medium leading-normal" href="./pagina4.html">Contact</a>
+    </div>
+    <a
+      href="./assets/Maria_Florencia_Perez_CV.pdf"
+      download
+      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#699bcd] text-[#121416] text-sm font-bold leading-normal tracking-[0.015em] transition duration-200 hover:brightness-110"
+    >
+      <span class="truncate">Download CV</span>
+    </a>
+  </div>
+</header>
+
+    <div class="relative flex size-full min-h-screen flex-col bg-[#121417] dark group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-white tracking-light text-[32px] font-bold leading-tight">My Projects</p>
+                <p class="text-[#a1abb5] text-sm font-normal leading-normal">A selection of projects showcasing my skills and experience in full-stack development.</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("./assets/Screenshot\ 2025-08-04\ 132212.png");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Dashboard Application</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal"> A comprehensive dashboard application with links saver, password manager, a fecth to the weather-Api for forecast and real-time updates with messages.</p>
+                   <p class="text-[#a1abb5] text-sm font-normal leading-normal"> Frontend: HTML, CSS and JS applied.
+                    <p class="text-[#a1abb5] text-sm font-normal leading-normal">Deploy: GitHub Pages.</p>
+                  </p>
+                  <p class="text-[#d1d5db] text-sm font-medium underline underline-offset-2 hover:text-[#699bcd] transition-colors duration-200">
+                   <a href="https://mflor-pd.github.io/project-break-dashboard/" target="_blank">https://github.com/MFlor-PD/project-break-dashboard</a></p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("./assets/Screenshot\ 2025-08-04\ 132353.png");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">E-commerce Platform</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">A fully functional e-commerce platform with product listings, shopping cart, and secure checkout.</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">Backend: Node.js, Express, Express-session, MongoDB, Cloudinary.</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">Frontend: React - Vite.</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">Deploy: Render.</p>
+                  <p class="text-[#d1d5db] text-sm font-medium underline underline-offset-2 hover:text-[#699bcd] transition-colors duration-200">
+                    <a href="https://proyect-break-fullbackend.onrender.com/products" target="_blank">https://proyect-break-fullbackend.onrender.com</a></p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("./assets/Screenshot\ 2025-08-04\ 132527.png");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Appointment Management Tool</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">A tool for Managing Rosters, including users, roles, months settings, work shifts.</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">Backend: Node.js, Express, JWT, Jest, Supertest, Swagger, Prisma, AWS.</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">Backend Deploy: Render.</p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">Frontend: React - Vite, React Router Dom, UseState and UseEffect, React Icons, React Loader. </p>
+                  <p class="text-[#a1abb5] text-sm font-normal leading-normal">Frontend Deploy: Netlify.</p>
+                  <p class="text-[#d1d5db] text-sm font-medium underline underline-offset-2 hover:text-[#699bcd] transition-colors duration-200">
+                    <a href="https://beachrostermanagment.netlify.app/" target="_blank">https://beachrostermanagment.netlify.app</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
